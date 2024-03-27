@@ -40,3 +40,37 @@
 .p-1{
     padding: 20px;
 }
+
+.pointer {
+    cursor: pointer;
+}
+
+
+/* scroll bar */
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+    width: 12px; /* Width of the entire scrollbar */
+  }
+  
+  /* Scrollbar Handle */
+  ::-webkit-scrollbar-thumb {
+    background-color: #555; /* Color of the scrollbar handle */
+    border-radius: 6px; /* Rounded corners */
+  }
+  
+  /* Scrollbar Track when being hovered by cursor */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #777; /* Color of the scrollbar handle on hover */
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #333; /* Color of the scrollbar track */
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-track:hover {
+    background: #444; /* Color of the scrollbar track on hover */
+  }
+  
