@@ -197,7 +197,3 @@ body {
     width: 70vw;
     min-height: 40px;
 }
-
-.playbar .songButtons {
-    cursor: pointer;
-}
